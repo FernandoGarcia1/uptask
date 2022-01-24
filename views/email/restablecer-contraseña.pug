@@ -1,0 +1,12 @@
+html5
+doctype html
+html(lang="en")
+    head
+        style
+            include ./email.css
+    body 
+        h2 Restablecer Contraseña
+        p Hola, has solicitado restablecer tu password, haz click en el siguiente enlace para restablecerlo.
+        a(href=`${resetUrl}`) Cambia tu Contraseña
+        p Si no puedes acceder a este enlace, visita #{resetUrl}
+        p Pd: El enlace tiene una duracion de una hora, si a pasado el tiempo vuelve a generar tu solicitud para restablecer la Contraseña. Si no has solicitado el cambio ignora este correo.

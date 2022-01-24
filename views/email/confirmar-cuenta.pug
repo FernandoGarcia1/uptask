@@ -1,0 +1,12 @@
+html5
+doctype html
+html(lang="en")
+    head
+        style
+            include ./email.css
+    body 
+        h2 Confirma tu cuenta de UpTask
+        p Hola, Estas a un paso de UpTask.
+        a(href=`${confirmarUrl}`) Confirma tu cuenta.
+        p Si no puedes acceder a este enlace, visita #{confirmarUrl}
+        p Pd: El enlace tiene una duracion de una hora, si a pasado el tiempo vuelve a generar tu solicitud para restablecer la Contraseña. Si no has solicitado el cambio ignora este correo.
