@@ -41,7 +41,7 @@ const Usuarios = db.define('usuarios', {
     },
     activo:{
         type:Sequelize.INTEGER,
-        defaultValue: 0,
+        defaultValue: 1,
     },
     token: {
         type: Sequelize.STRING

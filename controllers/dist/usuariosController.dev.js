@@ -42,7 +42,7 @@ exports.crearCuenta = function _callee(req, res, next) {
             subject: 'Confirma tu cuenta de UpTask',
             confirmarUrl: confirmarUrl,
             archivo: 'confirmar-cuenta',
-            correcto: req.flash('correcto', 'Se envió un mensaje a tu correo'),
+            correcto: req.flash('correcto', 'Cuenta creada!'),
             url: res.redirect('/iniciar-sesion')
           }));
 
