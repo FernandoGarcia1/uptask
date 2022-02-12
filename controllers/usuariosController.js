@@ -34,7 +34,7 @@ exports.crearCuenta = async (req,res, next)=>{
             subject: 'Confirma tu cuenta de UpTask', 
             confirmarUrl, 
             archivo : 'confirmar-cuenta',
-            correcto: req.flash('correcto', 'Cuenta creada!'),
+            correcto: req.flash('correcto', '¡Cuenta creada, ahora puedes iniciar sesion!'),
             url: res.redirect('/iniciar-sesion')
         });
         //redirigir al usuario
